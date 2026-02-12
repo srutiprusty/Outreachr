@@ -237,9 +237,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <div className="inline-block px-4 py-2 bg-[#9B99FF]/10 text-[#9B99FF] rounded-full text-sm font-medium border border-[#9B99FF]/20">
-                  AI-Powered Email Automation
-                </div>
+
                 <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight">
                   Send Thousands of{' '}
                   <span className="text-[#9B99FF]">
