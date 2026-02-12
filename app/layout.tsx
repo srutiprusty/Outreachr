@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-   title: "Mailer",
+  title: "OutReachr",
   description: "AI Email Automation",
   icons: {
     icon: "/logooo.png", // or "/favicon.png"
