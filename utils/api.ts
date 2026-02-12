@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api/auth",
+  baseURL:
+    process.env.FRONTEND_URL || "https://outreachr-mails.vercel.app/api/auth",
   withCredentials: true,
 });
 
