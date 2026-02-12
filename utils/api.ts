@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL:
-    `${process.env.FRONTEND_URL}/api/auth` || "http://localhost:3000/api/auth",
+  baseURL: "/api/auth",
   withCredentials: true,
 });
 
